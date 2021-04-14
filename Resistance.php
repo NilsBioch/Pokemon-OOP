@@ -1,9 +1,9 @@
 <?php
 
 class Resistance{
-    public function __construct($energyType, $value)
+    public function __construct($energyType, $resistanceValue)
     {
         $this->energyType = $energyType;
-        $this->value = $value;
+        $this->resistanceValue = $resistanceValue;
     }
 }
